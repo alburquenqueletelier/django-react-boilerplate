@@ -54,6 +54,8 @@ DATABASE_URL=psql://baal:123456789@localhost:5432/pruebas  #replace the values â
 
 ## Usage
 
+Run the development at 127.0.0.1:8000 server with ```pipenv run start``` or ```python manage.py runserver```
+
 The frontend uses flux architecture and the backend uses API rest framework. Create functions to connect to api endpoints using environment variable REACT_APP_BACKEND_URL + /api/model_name/
 
 To navigate in views use react-rouder-dom. Django redirects urls it doesn't identify to be handled by react-router-dom. If you navigate to /url_does_not_exist it will show the 404 view

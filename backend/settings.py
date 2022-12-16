@@ -95,7 +95,7 @@ DATABASES = {
 }
 
 # To customize django User model: set AUTH_USER_MODEL = 'name_of_your_app.name_of_model'
-# AUTH_USER_MODEL = 'api.User'
+AUTH_USER_MODEL = 'api.User'
 
 
 # Password validation

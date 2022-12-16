@@ -1,6 +1,6 @@
 # Django-React Boilerplate
 
-This is a template to create React SPA. Use Django in the backend that is responsible for rendering the React application. Include a responsive navbar sticky to the top with Links menu and login user, a button to test the api that looks for user information, and a responsible footer that wraps to the end of the view port or document as appropriate.
+This is a template to create React SPA. Use Django in the backend that is responsible for rendering the React application. Include a responsive navbar sticky to the top with Links menu and login form user, a button to test the api that looks for user information, and a responsible footer that wraps to the end of the view port or document as appropriate. It comes configured to use the django user abstract model so modify it if you need to.
 Inspired by the [flask-react-hello template](https://github.com/4GeeksAcademy/react-flask-hello) from 4Geeks Academy and post [How to connect Django to ReactJs](https://dev.to/nagatodev/how-to-connect-django-to-reactjs-1a71) from Faruq Abdulsalam's
 
 ## Requirements
@@ -48,7 +48,7 @@ SECRET_KEY=set-secret-key-or-use-django-default-key
 DATABASE_URL=psql://baal:123456789@localhost:5432/pruebas  #replace the values ​​with your postgres username and password 
 ```
 
-5. Do the migration, execute ```python manage.py migrate```  
+5. Do the migration, execute ```python manage.py makemigrations``` then ```python manage.py migrate```  
 **Note: If the connection to the database fails, the migration will generate a sqlite database that you can see in the root directory.**
 
 
